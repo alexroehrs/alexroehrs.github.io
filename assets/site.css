@@ -71,7 +71,10 @@ h3{font-size:1.08rem;line-height:1.35;color:var(--ink);margin:0;font-weight:600}
 .pubs .yr{font-family:var(--serif);font-size:1.45rem;line-height:1.2;color:var(--ink)}
 .pubs .t{color:var(--ink);font-weight:500;line-height:1.4}
 .pubs .v{font-size:.93rem}
-.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.sub{font-family:var(--serif);font-weight:400;font-size:1.6rem;line-height:1.15;color:var(--ink);margin:44px 0 14px}
+.intro + .sub{margin-top:0}
+.note{font-size:.9rem;margin:20px 0 0}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
 .steps{counter-reset:s;list-style:none;margin:38px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
 .steps li{counter-increment:s;font-size:.95rem;border-top:1px solid var(--ink);padding-top:14px}
 .steps li::before{content:counter(s);display:block;font-family:var(--serif);font-size:2rem;line-height:1;color:var(--accent);margin-bottom:10px}
