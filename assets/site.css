@@ -61,7 +61,7 @@ h3{font-size:1.08rem;line-height:1.35;color:var(--ink);margin:0;font-weight:600}
 .quick{list-style:none;margin:0;padding:0;font-size:.95rem}
 .quick li{padding:13px 0;border-top:1px solid var(--line)}
 .quick li:last-child{border-bottom:1px solid var(--line)}
-.quick b{display:block;color:var(--ink);font-weight:600}
+.quick b{display:block;color:var(--ink);font-weight:600;margin-bottom:1px}
 .rows{margin:0;padding:0;list-style:none}
 .row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:32px;padding:20px 0;border-top:1px solid var(--line)}
 .rows .row:last-child{border-bottom:1px solid var(--line)}
@@ -73,9 +73,10 @@ h3{font-size:1.08rem;line-height:1.35;color:var(--ink);margin:0;font-weight:600}
 .pubs .v{font-size:.93rem}
 .sub{font-family:var(--serif);font-weight:400;font-size:1.6rem;line-height:1.15;color:var(--ink);margin:44px 0 14px}
 .intro + .sub{margin-top:0}
+.rows + .note{margin-top:18px}
 .note{font-size:.9rem;margin:20px 0 0}
 .links{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
-.steps{counter-reset:s;list-style:none;margin:38px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.steps{counter-reset:s;list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
 .steps li{counter-increment:s;font-size:.95rem;border-top:1px solid var(--ink);padding-top:14px}
 .steps li::before{content:counter(s);display:block;font-family:var(--serif);font-size:2rem;line-height:1;color:var(--accent);margin-bottom:10px}
 .steps b{display:block;color:var(--ink);margin-bottom:4px}
@@ -83,6 +84,9 @@ h3{font-size:1.08rem;line-height:1.35;color:var(--ink);margin:0;font-weight:600}
 .band p{margin:0;font-size:1.08rem;line-height:1.5;max-width:44ch;color:var(--ink)}
 .band .btn{background:var(--ink);border-color:var(--ink);color:#fff}
 .band .btn:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+.band .btn.ghost{background:transparent;color:var(--ink)}
+.band .btn.ghost:hover{background:var(--ink);color:#fff}
+.steps{margin-top:6px}
 
 /* Contato e rodapé */
 .contact{background:var(--ink);color:#c5cae0;padding:96px 0 0;margin-top:0}
