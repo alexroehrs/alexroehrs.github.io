@@ -77,6 +77,13 @@ h3{font-size:1.08rem;line-height:1.35;color:var(--ink);margin:0;font-weight:600}
 .quick li:last-child{border-bottom:1px solid var(--line)}
 .quick b{display:block;color:var(--ink);font-weight:600;margin-bottom:1px}
 .rows{margin:0;padding:0;list-style:none}
+.plain{margin:0;padding:0;list-style:none}
+.plain li{padding:3px 0}
+.ico{flex:none;width:22px;height:22px;color:var(--accent)}
+.row h3.has-ico{display:flex;align-items:flex-start;gap:12px}
+.row h3.has-ico .ico{margin-top:.08em}
+.contact .mail{display:inline-flex;align-items:center;gap:.4em}
+.contact .mail .ico{color:inherit;width:.8em;height:.8em;stroke-width:1.2}
 .row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:32px;padding:20px 0;border-top:1px solid var(--line)}
 .rows .row:last-child{border-bottom:1px solid var(--line)}
 .row p{margin:0}
