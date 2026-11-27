@@ -128,6 +128,9 @@ h3{font-size:1.08rem;line-height:1.35;color:var(--ink);margin:0;font-weight:600}
 .profiles{display:flex;flex-wrap:wrap;gap:10px 26px;margin:0;padding:0;list-style:none}
 .profiles a{color:#fff;text-decoration-color:rgba(255,255,255,.35)}
 .profiles a:hover{text-decoration-color:#fff}
+.profiles a:has(.ico){display:inline-flex;align-items:center;gap:8px;text-decoration:none}
+.profiles a:has(.ico) span{text-decoration:underline;text-decoration-color:rgba(255,255,255,.35);text-underline-offset:4px}
+.profiles .ico{color:inherit;width:20px;height:20px}
 .foot{margin-top:84px;border-top:1px solid rgba(255,255,255,.14);padding:26px 0 36px;font-size:.86rem;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:#8f97b8}
 
 @media (max-width:900px){
