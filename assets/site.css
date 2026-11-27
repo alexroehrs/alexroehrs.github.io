@@ -48,7 +48,7 @@ a:hover{color:var(--accent-deep)}
 .role{margin:0 0 18px;color:var(--accent);font-weight:600;font-size:.98rem}
 @media (min-width:560px){.role a{white-space:nowrap}}
 h1{font-family:var(--serif);font-weight:400;color:var(--ink);font-size:clamp(3rem,7vw,5.2rem);line-height:.98;letter-spacing:-.015em;margin:0 0 28px}
-.tagline{font-size:clamp(1.25rem,2.1vw,1.55rem);line-height:1.35;color:var(--ink);margin:0 0 16px;max-width:30ch;font-weight:500}
+.tagline{font-size:clamp(1.25rem,2.1vw,1.55rem);line-height:1.35;color:var(--ink);margin:0 0 16px;max-width:40ch;text-wrap:balance;font-weight:500}
 .lead{margin:0 0 34px;max-width:54ch}
 .actions{display:flex;flex-wrap:wrap;gap:12px}
 .btn{display:inline-block;padding:11px 22px;border-radius:4px;text-decoration:none;font-weight:600;font-size:.95rem;border:1.5px solid var(--ink);color:var(--ink);background:transparent;transition:background .15s,color .15s}
